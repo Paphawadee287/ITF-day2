@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script>
+        function setUsername(){
+            document.getElementById("username-p").innerHTML = document.getElementById("username").value + "'s Gallery";
+        }
+
+        function setProfile(){
+            document.getElementById("profileImage").style.backgroundImage = "url(" + document.getElementById("profile").value + ")";
+        }
+
+    </script>
+</head>
+<body>
+    <div class="content">
+        <div class="avatar">
+            <div class="profile-img" id="profileImage">
+            </div>
+            <div class="noti">6</div>
+        </div>
+        <div class="username">
+            <a href="https://github.com/settings/profile" class="linkusername">
+            <p style="font-size: x-large; font-weight: 600;" id="username-p">Papha's gallery</p>
+        </a>
+        </div>
+        <div class="Input-group">
+            <div><label style="font-size: x-large; font-weight: 400;">Username</label><input style="margin-left: 10px;" type="text" id="username"><button style="margin-left: 10px;" id="setUsername" onclick="setUsername()">Apply</button></div>
+            <div><label style="font-size: x-large; font-weight: 400;">Profile Image</label><input style="margin-left: 10px"; type="text" id="profile"><button style="margin-left: 10px;" id="setProfile" onclick="setProfile()">Apply</button></div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item col-span">
+                <img style="height: 300px; width: 625px;" src="https://images.alphacoders.com/132/1328957.png" alt="">
+            </div>
+            <div class="gallery-item">
+                <img style="height: 300px;" src="https://imagedelivery.net/9sCnq8t6WEGNay0RAQNdvQ/UUID-cl9hi2nrg0290ulow9v1zkuht/public" alt="">
+            </div>
+            <div class="gallery-item">
+                <img style="height: 300px;" src="https://play-lh.googleusercontent.com/-LeH0K7cF4Cx7WnZJne2yWnDBcpmbxYrfbbbtlx7xLv6Yd8ECjrkLG7NY95pKkiAIw" alt="">
+            </div>
+            <div class="gallery-item">
+                <img style="height: 300px;" src="https://img.freepik.com/premium-photo/futuristic-cyber-cat-cyberpunk-style-digital-art-style-illustration-painting_743201-3273.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img style="height: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzLMPJtSU0ENKxpAwBOQNijke83KsYWIzsLNtXkqp0omeTOrIo3cn52nL4gKCRKRb-CUc&usqp=CAU" alt="">
+            </div>
+            <div class="gallery-item">
+                <img style="height: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe9Q_UEiLQSWPUf0IxXn643YmIQko0pLwYOh3b3joMfZCNi0WF8LjTlwGMhexozWoSL-s&usqp=CAU" alt="">
+            </div>
+            <div class="gallery-item">
+                <img style="height: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQ9xUXRqW_-tdryC68L0Mjcfd36Y80zlQpfeiTXqZALzXaV3CUSismKREZc9cC_sMpgw&usqp=CAU" alt="">
+            </div>
+            <div class="gallery-item row-span">
+                <img style="height: 625px; width: 300px;" src="https://static.displate.com/857x1200/displate/2022-07-18/ed970c75e7c28f898755c7c437aa95a4_baab9fc4daba4f2dda2bfac1d8848aee.jpg" alt="">
+
+            </div>
+            <div class="gallery-item">
+                <img style="height: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToQcS00_jP0R1o_LXA8B_Rg7PZLauHgMfiLE_ZijQNT5M-4u2NH3LIAkQ47yrqkJqg4R4&usqp=CAU" alt="">
+            </div>
+            <div class="gallery-item">
+                <img style="height: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzoslM-3o7RTpZeiYjLwDmCiJNm-ifpTsfVFJUgKUk7YYoxlQvMxQXlhnxjmvPfdOI5Ec&usqp=CAU" alt="">
+            </div>
+            <div class="gallery-item">
+                <img style="height: 300px;" src="https://t4.ftcdn.net/jpg/05/51/72/71/360_F_551727130_P8nRXjbJW0iS9k9FrOEe2I1tmqlkdV3F.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img style="height: 300px;" src="https://render.fineartamerica.com/images/rendered/square-dynamic/small/images/artworkimages/mediumlarge/3/cute-cat-sampad-art.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img style="height: 300px;" src="https://render.fineartamerica.com/images/rendered/square-dynamic/small/images/artworkimages/mediumlarge/3/17-cute-cat-sampad-art.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
